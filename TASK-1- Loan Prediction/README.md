@@ -5,18 +5,31 @@ This project is a machine learning model that predicts whether a loan applicatio
 The dataset used in this project is the Loan Prediction Dataset from Kaggle. It contains 614 observations and 13 variables. The variables include:
 
 Loan_ID: Unique Loan ID
+
 Gender: Male/Female
+
 Married: Applicant married (Y/N)
+
 Dependents: Number of dependents
+
 Education: Applicant Education (Graduate/Under Graduate)
+
 Self_Employed: Self employed (Y/N)
+
 ApplicantIncome: Applicant income
+
 CoapplicantIncome: Coapplicant income
+
 LoanAmount: Loan amount in thousands
+
 Loan_Amount_Term: Term of loan in months
+
 Credit_History: credit history meets guidelines
+
 Property_Area: Urban/Semi-Urban/Rural
+
 Loan_Status: Loan approved (Y/N)
+
 Model
 We will be using logistic regression to predict the Loan_Status based on the other variables in the dataset. Logistic regression is a classification algorithm that works by fitting a logistic curve to the data, which allows us to estimate the probability of a loan being approved based on the input variables.
 
